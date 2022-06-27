@@ -326,4 +326,17 @@ img{
     margin: 20px 0 30px;
 }
 
+.footer{
+    height: 120px;
+}
+
+.footer .social a{
+    font-size: 12px;
+    padding: 0;
+}
+
+.footer .social p{
+    font-size: 8px;
+}
+
 }
