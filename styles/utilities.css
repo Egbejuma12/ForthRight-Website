@@ -79,9 +79,13 @@
     z-index: 2;
 }
 
+#navbar{
+    z-index: 3;
+}
+
 /* FLEX-ITEMS */
 .flex-items{
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -91,11 +95,6 @@
 .flex-items > div{
     padding: 20px;
 }
-
-/* .flex-items .my-img{
-    width: 640px;
-    height: 206px;
-} */
 
 /* FLEX COLUMN */
 .flex-columns.flex-reverse .row{
