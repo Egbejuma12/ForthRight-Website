@@ -250,6 +250,35 @@ img{
     margin-right: 30px;
 }
 
+/* STYLES FOR BLOG PAGE */
+.hero.blog{
+    background: url(../images/home/blog.jpg) no-repeat center center/cover;
+    height: 30vh;
+}
+
+.post{
+    padding: 50px 30px;
+}
+
+.post h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post .meta{
+    margin-bottom: 30px;
+}
+
+.post img{
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+
 /* Media Queries */
 @media screen and (max-width:768px) {
  .hamburger{
@@ -263,6 +292,10 @@ img{
  .mobile-container{
      display: block;
  }
+
+ .cases img:hover{
+    opacity: 0.7;
+}
 
  .normal-nav{
      display: none;
@@ -308,6 +341,10 @@ img{
      max-width: 100%;
  }
 
+ .cases img:hover{
+    opacity: 0.7;
+}
+
   .hero .content h1{
     font-size: 30px;
 }
@@ -316,6 +353,19 @@ img{
     font-size: 13px;
     max-width: 600px;
     margin: 20px 0 30px;
+}
+
+.footer{
+    height: 120px;
+}
+
+.footer .social a{
+    font-size: 12px;
+    padding: 0;
+}
+
+.footer .social p{
+    font-size: 8px;
 }
 
 }
