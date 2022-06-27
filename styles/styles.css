@@ -264,6 +264,10 @@ img{
      display: block;
  }
 
+ .cases img:hover{
+    opacity: 0.7;
+}
+
  .normal-nav{
      display: none;
  }
@@ -307,6 +311,10 @@ img{
      flex: 100%;
      max-width: 100%;
  }
+
+ .cases img:hover{
+    opacity: 0.7;
+}
 
   .hero .content h1{
     font-size: 30px;
